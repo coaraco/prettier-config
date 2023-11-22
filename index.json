@@ -19,6 +19,7 @@
     "$ANGULAR_INPUT",
     "$ANGULAR_OUTPUT"
   ],
+  "plugins": ["prettier-plugin-organize-attributes"],
   "attributeSort": "ASC",
   "overrides": [
     {
