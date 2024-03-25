@@ -1,6 +1,5 @@
 {
   "$schema": "http://json.schemastore.org/prettierrc",
-  "parser": "angular",
   "bracketSpacing": true,
   "printWidth": 140,
   "tabWidth": 2,
@@ -24,10 +23,24 @@
   "attributeSort": "ASC",
   "overrides": [
     {
-        "files": ["*.html", "*.scss", "*.json"],
-        "options": {
-            "tabWidth": 4
-        }
+      "files": ["*.html"],
+      "options": {
+        "parser": "angular",
+        "tabWidth": 4
+      }
+    },
+    {
+      "files": ["*.scss"],
+      "options": {
+        "parser": "scss",
+        "tabWidth": 4
+      }
+    },
+    {
+      "files": ["*.json"],
+      "options": {
+        "tabWidth": 4
+      }
     }
   ]
 }
