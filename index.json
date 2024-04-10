@@ -30,14 +30,7 @@
       }
     },
     {
-      "files": ["*.scss"],
-      "options": {
-        "parser": "scss",
-        "tabWidth": 4
-      }
-    },
-    {
-      "files": ["*.json"],
+      "files": ["*.scss", "*.json"],
       "options": {
         "tabWidth": 4
       }
