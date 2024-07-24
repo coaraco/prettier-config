@@ -1,13 +1,13 @@
 {
   "name": "@coara/prettier-config",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "coara TM Prettier config",
   "main": "index.json",
   "repository": "git@github.com/coaraco/prettier-config.git",
   "author": "coara.co",
   "license": "MIT",
   "peerDependencies": {
-    "prettier": "^3.1",
+    "prettier": "^3.0.3",
     "prettier-plugin-organize-attributes": "1.0.0",
     "stylelint-prettier": "^3.0.0"
   }
